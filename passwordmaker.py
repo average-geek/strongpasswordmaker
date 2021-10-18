@@ -11,7 +11,7 @@ while True:
     password = adjective + noun + str(number) + special_char 
     print('Your new password is: %s' % password)
 
-    option = input('Would you like another password? Type y or n: ') #ask user input
+    option = input('Would you like to have another password? Type y or n: ') #ask user input
     if option =='n':
         break
         
